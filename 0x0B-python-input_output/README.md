@@ -29,8 +29,7 @@ What you should learn from this project:
 
 ---
 
-
 ---
 
 ## Author
-* **Adeboyejo isaac** - [OLUFUMMY](https://github.com/Olufummy)
+* **Adeboyejo isaac** - [Olufummy](https://github.com/Olufummy)
