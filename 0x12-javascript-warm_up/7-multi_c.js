@@ -1,11 +1,10 @@
 #!/usr/bin/node
+const { argv } = require('process');
 
-const ag = parseInt(process.argv[2], 10);
-
-if (!ag) {
+if (argv[2] === undefined) {
   console.log('Missing number of occurrences');
 } else {
-  for (let i = 0; i < ag; i++) {
+  for (let i = 0; i < argv[2]; i++) {
     console.log('C is fun');
   }
 }

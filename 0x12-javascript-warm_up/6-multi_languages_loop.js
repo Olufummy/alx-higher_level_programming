@@ -1,7 +1,4 @@
 #!/usr/bin/node
+const la = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
-const multi = ['C is fun', 'Python is cool', 'Javascript is amazing'];
-
-for (const language in multi) {
-  console.log(`${multi[language]}`);
-}
+la.forEach(x => console.log(x));
